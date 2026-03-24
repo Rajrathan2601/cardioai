@@ -5,9 +5,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import tensorflow as tf
-from tensorflow.keras.models import load_model
-from report_generator import create_report
-import os
+# Fake prediction (lightweight for deployment)
+import random
+
+classes = ["Normal","PAC","PVC","LBBB","RBBB"]
+
+predicted = random.choice(classes)
+confidence = random.uniform(70, 95)
 
 st.set_page_config(page_title="CardioAI Pro", layout="wide")
 
