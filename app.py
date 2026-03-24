@@ -4,7 +4,7 @@ st.write("App Started Successfully")
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import tensorflow as tf
+
 # Fake prediction (lightweight for deployment)
 import random
 
