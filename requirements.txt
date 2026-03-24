@@ -1,6 +1,5 @@
 streamlit
-numpy==1.26.4
+numpy
 pandas
 matplotlib
 reportlab
-tensorflow-cpu==2.15.0
